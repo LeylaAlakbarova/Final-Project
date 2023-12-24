@@ -1,0 +1,32 @@
+.loginButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.loginButtons button {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  color: var(--gray-2, #4f4f4f);
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+.loginButtons img {
+  padding: 6px;
+  border-radius: 20px;
+}
+.loginButtons img.facebook {
+  background: #4267b2;
+}
+.loginButtons img.google {
+  background: #db4437;
+}
+.or {
+  font-family: "DM Sans", sans-serif;
+  color: var(--gray-4, #bdbdbd);
+  font-size: 14px;
+  font-weight: 500;
+}
